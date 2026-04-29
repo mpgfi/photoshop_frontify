@@ -29,9 +29,6 @@
     saveOpts.layers = true;
     doc.saveAs(newFile, saveOpts, false);
 
-    // Close the original (now saved as _frontify)
-    doc.close(SaveOptions.DONOTSAVECHANGES);
-
     // Confirm
     alert("Successfully Frontified!");
 
